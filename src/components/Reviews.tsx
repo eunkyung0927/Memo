@@ -11,12 +11,12 @@ function Reviews({ data }) {
   };
 
   return (
-    <>
+    <div id="content">
       <div id="search">
         <h1>검색</h1>
         <input
           type="text"
-          className="input search"
+          className="input-search"
           onChange={onKeywordChange}
           placeholder="제목을 입력해 주세요"
         ></input>
@@ -57,7 +57,7 @@ function Reviews({ data }) {
               ))}
         </ul>
       </div>
-    </>
+    </div>
   );
 }
 export default Reviews;

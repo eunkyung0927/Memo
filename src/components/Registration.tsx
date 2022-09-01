@@ -38,7 +38,7 @@ function Registration({ onRegister }) {
         <input
           id="title"
           type="text"
-          className="input"
+          className="input-register"
           placeholder="제목을 입력해 주세요"
           onChange={handleInputChange}
           required={true}
@@ -49,7 +49,7 @@ function Registration({ onRegister }) {
         <p>내용</p>
         <textarea
           id="comment"
-          className="input"
+          className="textarea-comment"
           placeholder="내용을 입력해 주세요"
           onChange={handleInputChange}
           required={true}
@@ -57,7 +57,7 @@ function Registration({ onRegister }) {
         ></textarea>
       </div>
       <div>
-        <p> 별점</p>
+        <p> 중요도 </p>
         <select
           id="score"
           className="select"

@@ -25,14 +25,26 @@ p{
 ul{
   list-style:none;
   padding-left:0px;
+  display : flex
+}
+li{
+  padding-right: 7px;
 }
 /* 신규 리뷰 등록 영역  */
-.input{
+.input-register{
   height : 40px;
-  width : 400px;
+  width: 400px;
   padding-left: 13px;
   border-radius: 5px;
   border: 1px solid #ddd
+}
+.textarea-comment{
+  height : 250px;
+  width : 390px;
+  padding: 15px 13px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  resize: none;
 }
 .select{
   height : 45px;
@@ -55,6 +67,22 @@ ul{
 
 #register{
   padding: 10px 20px 20px 20px ;
+  border-right: 2px solid #F2D7D9;
+  display: table-cell;
+  vertical-align: middle;
+  width: 450px;
+}
+
+#content{
+  width: 70%;
+}
+
+.input-search{
+  height : 40px;
+  width: 1200px;
+  padding-left: 13px;
+  border-radius: 5px;
+  border: 1px solid #ddd
 }
 /* 영화 리뷰 박스 별점 영역 */
 .star{
@@ -74,16 +102,12 @@ ul{
   padding: 10px 20px 20px 20px ;
 }
 
-.search {
-  background-color: #f5f5f5;
-}
-
 #reviews{
   padding: 10px 20px 20px 20px ;
 }
 
 .review-box{
-  background-color: #fff;
+  background-color: #f6efff;
   border: #ddd solid 1px;
   border-radius: 10px;
   padding : 20px 0px 20px 20px;
