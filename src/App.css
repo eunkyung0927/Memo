@@ -1,5 +1,4 @@
 .App {
-  /* text-align: center; */
-  width: 480px;
-  border: 1px solid #194e84
+  display: flex;
+  width: 100%;
 }

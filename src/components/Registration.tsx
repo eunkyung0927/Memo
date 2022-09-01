@@ -32,9 +32,9 @@ function Registration({ onRegister }) {
 
   return (
     <form id="register" onSubmit={handleSubmit}>
-      <h1> 신규 리뷰 등록</h1>
+      <h1> 새 메모 추가</h1>
       <div>
-        <p> 영화 제목</p>
+        <p>제목</p>
         <input
           id="title"
           type="text"
@@ -46,16 +46,15 @@ function Registration({ onRegister }) {
         ></input>
       </div>
       <div>
-        <p> 한줄평</p>
-        <input
+        <p>내용</p>
+        <textarea
           id="comment"
-          type="text"
           className="input"
           placeholder="내용을 입력해 주세요"
           onChange={handleInputChange}
           required={true}
           value={comment}
-        ></input>
+        ></textarea>
       </div>
       <div>
         <p> 별점</p>

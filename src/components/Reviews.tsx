@@ -13,16 +13,16 @@ function Reviews({ data }) {
   return (
     <>
       <div id="search">
-        <h1>리뷰 검색</h1>
+        <h1>검색</h1>
         <input
           type="text"
           className="input search"
           onChange={onKeywordChange}
-          placeholder="영화 제목을 입력해 주세요"
+          placeholder="제목을 입력해 주세요"
         ></input>
       </div>
       <div id="reviews">
-        <h1>리뷰 내역</h1>
+        <h1>메모 리스트</h1>
         <ul>
           {keywordInput === ""
             ? data.map((ele) => (
